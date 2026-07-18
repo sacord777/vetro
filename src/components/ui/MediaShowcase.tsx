@@ -1,4 +1,5 @@
 import { PlayCircle } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 interface MediaShowcaseProps {
   title: string
@@ -25,9 +26,9 @@ export default function MediaShowcase({
           <h2>{title}</h2>
           <p>{description}</p>
           <div className="video-cta-group">
-            <a href={ctaHref} className="button button-primary">
+            <Link to={ctaHref} className="button button-primary">
               {ctaLabel}
-            </a>
+            </Link>
             <div className="trust-indicators">
               <span>
                 <PlayCircle size={16} />

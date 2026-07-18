@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Seo from '../components/ui/Seo'
 import Hero from '../components/Hero'
 import CourseGrid from '../components/course/CourseGrid'
@@ -20,9 +21,9 @@ export default function HomePage() {
         title="Aprendé técnicas de resina con oficio, calma y creatividad."
         subtitle="Un taller presencial pensado para que descubras el proceso, practiques con materiales reales y crees proyectos con identidad propia." 
       >
-        <a href="/courses" className="button button-primary">
+        <Link to="/courses" className="button button-primary">
           Ver cursos
-        </a>
+        </Link>
       </Hero>
 
       <section className="section section-surface">
@@ -63,7 +64,7 @@ export default function HomePage() {
       </section>
 
       <MediaShowcase
-        title="Mirá cómo se trabaja en el taller"
+        title="Mirá un poco de cómo se puede trabajar"
         description="Una invitación a conocer de cerca la mezcla, la técnica y el acabado premium que dan forma a cada proyecto." 
         videoSrc="/anycubicresin.mp4"
         posterSrc="/tutorial-poster.webp"
