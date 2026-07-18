@@ -27,8 +27,8 @@ export default function HomePage() {
         description="Un tutorial completo de 14 minutos que muestra el proceso creativo, la mezcla y el acabado premium."
         videoSrc="/anycubicresin.mp4"
         posterSrc="/anycubicresin.mp4"
-        ctaLabel="Ver el tutorial"
-        ctaHref="/contact#/contact"
+        ctaLabel="Reservar plaza"
+        ctaHref="/#/contact"
       />
 
       <section className="section section-surface">
