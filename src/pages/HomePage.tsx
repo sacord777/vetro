@@ -28,7 +28,7 @@ export default function HomePage() {
         videoSrc="/anycubicresin.mp4"
         posterSrc="/anycubicresin.mp4"
         ctaLabel="Ver el tutorial"
-        ctaHref="/contact"
+        ctaHref="/contact#/contact"
       />
 
       <section className="section section-surface">
