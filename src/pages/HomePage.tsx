@@ -10,12 +10,12 @@ export default function HomePage() {
   return (
     <>
       <Seo
-        title="Vetro | Transformá tu futuro con una habilidad rentable"
-        description="Aprendé porcelanato líquido, epoxy y UV resin para generar ingresos reales con proyectos profesionales."
+        title="Vetro | Transformá tu vida con una habilidad rentable"
+        description="Aprendé Porcelanato Líquido y Resina UV resin para generar ingresos extras con proyectos profesionales."
       />
       <Hero
         title="Transformá tu futuro con una habilidad rentable"
-        subtitle="Aprendé porcelanato líquido, epoxy y UV resin para generar ingresos reales desde tu primer proyecto."
+        subtitle="Aprendé porcelanato líquido y Resina UV para generar ingresos reales desde tu primer proyecto."
       >
         <a href="/courses" className="button button-primary">
           Ver cursos disponibles
@@ -26,7 +26,7 @@ export default function HomePage() {
         title="Mirá un poco de Técnica y Creatividad real"
         description="Un tutorial completo de 14 minutos que muestra el proceso creativo, la mezcla y el acabado premium."
         videoSrc="/anycubicresin.mp4"
-        posterSrc="/tableresin.jpg"
+        posterSrc="/anycubicresin.mp4"
         ctaLabel="Ver el tutorial"
         ctaHref="/contact"
       />
