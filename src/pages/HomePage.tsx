@@ -28,7 +28,7 @@ export default function HomePage() {
         videoSrc="/anycubicresin.mp4"
         posterSrc="/anycubicresin.mp4"
         ctaLabel="Reservar plaza"
-        ctaHref="/#/contact"
+        ctaHref="/contact"
       />
 
       <section className="section section-surface">

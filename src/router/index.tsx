@@ -1,4 +1,4 @@
-import { createHashRouter } from 'react-router-dom'
+import { createBrowserRouter } from 'react-router-dom'
 import App from '../App'
 import HomePage from '../pages/HomePage'
 import CoursesPage from '../pages/CoursesPage'
@@ -7,10 +7,10 @@ import MaterialsPage from '../pages/MaterialsPage'
 import AboutPage from '../pages/AboutPage'
 import ContactPage from '../pages/ContactPage'
 
-export const router = createHashRouter([
+export const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <App />, 
     children: [
       { index: true, element: <HomePage /> },
       { path: 'courses', element: <CoursesPage /> },
