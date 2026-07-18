@@ -14,7 +14,7 @@ export default function CoursesPage() {
           <div className="section-header">
             <p className="eyebrow">Cursos completos</p>
             <h1>Cursos disponibles</h1>
-            <p>Formación práctica para comenzar un oficio de alta demanda y excelente retorno.</p>
+            <p>Formación práctica tanto para niños como para adultos, para comenzar un nuevo hobby, un nuevo oficio de alta demanda y excelente retorno monetario.</p>
           </div>
           <CourseGrid courses={courses} showButton />
         </div>
