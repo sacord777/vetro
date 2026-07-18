@@ -98,9 +98,6 @@ export default function MobileDrawer({
             </nav>
 
             <div className="drawer-actions">
-              <Link to="/contact" className="drawer-cta" onClick={onNavigate}>
-                Contacto
-              </Link>
               <a href={whatsappHref} className="drawer-whatsapp" onClick={onNavigate}>
                 WhatsApp
               </a>

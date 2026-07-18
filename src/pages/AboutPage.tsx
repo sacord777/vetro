@@ -5,16 +5,16 @@ export default function AboutPage() {
     <>
       <Seo
         title="Vetro | Sobre nosotros"
-        description="Conocé nuestra misión, valores e instructores expertos detrás de la formación en oficios rentables."
+        description="Conocé nuestra propuesta educativa en talleres de porcelanato líquido, epoxy resin y UV resin. Un espacio en Río Cuarto para aprender con técnica y creatividad."
       />
       <section className="section section-surface">
         <div className="container">
           <div className="section-header">
             <p className="eyebrow">Sobre Vetro</p>
-            <h1>Una escuela enfocada en oficio, lucro y confianza</h1>
+            <h1>Una escuela enfocada en técnica, creatividad y confianza</h1>
             <p>
-              Vetro nació para entrenar a personas que buscan un oficio profesional, con habilidades que
-              generan ingresos y permiten independencia financiera.
+              Vetro nació para ofrecer cursos presenciales donde aprender técnicas de resina y
+              porcelanato con cuidado, paso a paso, en un ambiente profesional y acogedor.
             </p>
           </div>
 
@@ -22,15 +22,15 @@ export default function AboutPage() {
             <div>
               <h2>Nuestra misión</h2>
               <p>
-                Empoderar a emprendedores y trabajadores con técnicas reales, mentores expertos y
-                soporte desde el primer proyecto.
+                Impulsar el aprendizaje práctico de técnicas creativas, con atención personalizada
+                y herramientas claras para avanzar con seguridad.
               </p>
             </div>
             <div>
               <h2>Quienes somos</h2>
               <p>
                 Formadores con experiencia en obra, diseño y ejecución de proyectos de resina y
-                porcelanato para clientes exigentes.
+                porcelanato que buscan enseñar con método y armonía.
               </p>
             </div>
           </div>

@@ -11,7 +11,7 @@ export default function Hero({ title, subtitle, children }: HeroProps) {
     <section className="hero">
       <AnimatedBackground />
       <div className="hero-content">
-        <p className="eyebrow hero-eyebrow">Formación rentable</p>
+        <p className="eyebrow hero-eyebrow">Taller creativo</p>
         <h1>{title}</h1>
         <p className="hero-copy">{subtitle}</p>
         <div className="hero-actions">{children}</div>

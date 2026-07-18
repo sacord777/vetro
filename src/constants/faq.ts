@@ -4,21 +4,36 @@ export const faqItems: FAQItem[] = [
   {
     question: '¿Necesito experiencia previa para aprender?',
     answer:
-      'No. Nuestros cursos están diseñados para personas sin experiencia técnica, con guías paso a paso desde la preparación hasta el acabado final.',
+      'No. Nuestros cursos están diseñados para personas de todos los niveles, con una guía paso a paso y atención personalizada desde la preparación hasta el acabado.',
   },
   {
-    question: '¿Cuánto puedo cobrar por un proyecto completo?',
+    question: '¿Qué materiales están incluidos?',
     answer:
-      'Dependiendo del curso y del proyecto, nuestros alumnos cobran entre 3x y 6x el costo de materiales por trabajo ejecutado.',
+      'Incluimos los materiales principales usados en el taller: resinas, pigmentos, moldes y accesorios básicos. También orientamos sobre qué insumos conviene usar fuera del taller.',
   },
   {
-    question: '¿Recibo certificado al finalizar?',
+    question: '¿Cuánto dura el curso?',
     answer:
-      'Sí, entregamos un certificado profesional que valida la formación práctica en porcelanato líquido, epoxy o UV resin.',
+      'Cada curso tiene una estructura clara que se completa en sesiones presenciales organizadas para avanzar con calidad y sin apuro.',
   },
   {
-    question: '¿Hay apoyo después de la formación?',
+    question: '¿Puedo participar si soy principiante?',
     answer:
-      'Contamos con una comunidad activa y soporte para consultas técnicas, presupuestos y primeros proyectos.',
+      'Sí. El taller está pensado para principiantes, con una metodología práctica que ayuda a ganar confianza desde la primera clase.',
+  },
+  {
+    question: '¿Qué proyectos voy a crear?',
+    answer:
+      'Vas a trabajar en piezas reales como superficies continuas, muebles, objetos decorativos y accesorios personalizados según el curso elegido.',
+  },
+  {
+    question: '¿Recibo un certificado?',
+    answer:
+      'Sí, al finalizar entregamos un certificado que acredita tu participación y los contenidos prácticos cursados.',
+  },
+  {
+    question: '¿Puedo seguir practicando en casa?',
+    answer:
+      'Claro. Te orientamos sobre cómo continuar tus proyectos en casa y qué materiales son los más adecuados para práctica segura y eficiente.',
   },
 ]

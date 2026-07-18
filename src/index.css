@@ -134,6 +134,10 @@ p {
   color: var(--txt-light);
 }
 
+a {
+  text-decoration: none;
+}
+
 
 /* ==========================================
    LAYOUT / SECCIONES

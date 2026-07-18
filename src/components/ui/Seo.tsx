@@ -15,6 +15,7 @@ export default function Seo({ title, description, image = DEFAULT_IMAGE }: SeoPr
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="keywords" content="Porcelanato líquido, epoxy resin, UV resin, cursos presenciales, talleres creativos, Rio Cuarto, técnica artesanal, aprendizaje práctico" />
       <meta name="robots" content="index, follow" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />

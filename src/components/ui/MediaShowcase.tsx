@@ -21,7 +21,7 @@ export default function MediaShowcase({
     <section className="section section-surface video-section">
       <div className="container video-section-grid">
         <div className="video-copy">
-          <p className="eyebrow">Tutorial premium</p>
+          <p className="eyebrow">Invitación al taller</p>
           <h2>{title}</h2>
           <p>{description}</p>
           <div className="video-cta-group">
@@ -31,10 +31,10 @@ export default function MediaShowcase({
             <div className="trust-indicators">
               <span>
                 <PlayCircle size={16} />
-                14 minutos de demostración real
+                Sentí el proceso creativo antes de tu primera clase
               </span>
               <span>
-                <strong>Guía</strong> demostrativa paso a paso
+                <strong>Observá</strong> técnica, mezcla y acabado profesional
               </span>
             </div>
           </div>
@@ -42,12 +42,12 @@ export default function MediaShowcase({
 
         <div className="video-panel">
           <div className="video-player-shell">
-            <video controls poster={posterSrc} className="responsive-video">
+            <video controls preload='metadata' poster={posterSrc} className="responsive-video">
               <source src={videoSrc} type="video/mp4" />
               Tu navegador no soporta reproducción de video.
             </video>
           </div>
-          <p className="video-caption">Aprendé la técnica completa desde la preparación hasta el acabado final.</p>
+          <p className="video-caption">Conocé el flujo de trabajo creativo desde la preparación hasta el acabado final.</p>
         </div>
       </div>
     </section>

@@ -1,12 +1,12 @@
 import type { NavItem } from '../types'
 
-export const siteTitle = 'Vetro | Habilidades que generan ingresos'
+export const siteTitle = 'Vetro | Talleres creativos de resina en Río Cuarto'
 export const siteDescription =
-  'Aprendé porcelanato líquido, epoxy resin y UV resin con un enfoque práctico para construir un oficio rentable y profesional.'
+  'Cursos presenciales de porcelanato líquido, epoxy resin y UV resin en un taller creativo con atención personalizada. Aprende técnica, diseño y práctica en un ambiente relajado.'
 
 export const whatsappNumber = '+5493585480214'
 export const whatsappText = encodeURIComponent(
-  'Hola Vetro, quiero más información sobre los cursos y cómo empezar.'
+  'Hola Vetro, quiero más información sobre los cursos y talleres de resina.'
 )
 
 export const navItems: NavItem[] = [
