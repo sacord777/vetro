@@ -20,6 +20,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <p>gustavofcordeiro@yahoo.com.ar</p>
             <p>+54 9 3585 480 214</p>
             <p>Diseñado con ♥ por <a href="http://saintagency.netlify.app"><strong>Saint Agency</strong></a></p>
+            <p><a href="https://github.com/sacord777/vetro"><strong>Detalles del proyecto</strong></a></p>
           </div>
         </div>
         <p className="footer-note">© {new Date().getFullYear()} Vetro. Todos los derechos reservados.</p>
