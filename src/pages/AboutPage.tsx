@@ -29,8 +29,9 @@ export default function AboutPage() {
             <div>
               <h2>Quienes somos</h2>
               <p>
-                Formadores con experiencia en obra, diseño y ejecución de proyectos de resina y
-                porcelanato que buscan enseñar con método y armonía.
+                Una docente con experiencia en obra, diseño y ejecución de proyectos de resina y
+                porcelanato, que enseña con método y armonía. Si querés conocer más sobre mi
+                trayectoria o los talleres, podés contactarme.
               </p>
             </div>
           </div>
