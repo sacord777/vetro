@@ -8,6 +8,7 @@ type ColorBendsProps = {
   rotation?: number;
   speed?: number;
   colors?: string[];
+  color?: string;
   transparent?: boolean;
   autoRotate?: number;
   scale?: number;
@@ -132,6 +133,7 @@ export default function ColorBends({
   rotation = 90,
   speed = 0.2,
   colors = [],
+  color,
   transparent = true,
   autoRotate = 0,
   scale = 1,
@@ -141,7 +143,7 @@ export default function ColorBends({
   parallax = 0.5,
   noise = 0.15,
   iterations = 1,
-  intensity = 1.5,
+  intensity = 1.3,
   bandWidth = 6
 }: ColorBendsProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -287,7 +289,10 @@ export default function ColorBends({
       return new THREE.Vector3(v[0] / 255, v[1] / 255, v[2] / 255);
     };
 
-    const arr = (colors || []).filter(Boolean).slice(0, MAX_COLORS).map(toVec3);
+    const resolvedColors = [...(colors || [])]
+      .filter(Boolean)
+      .concat(color && !colors?.includes(color) ? [color] : []);
+    const arr = resolvedColors.slice(0, MAX_COLORS).map(toVec3);
     for (let i = 0; i < MAX_COLORS; i++) {
       const vec = (material.uniforms.uColors.value as THREE.Vector3[])[i];
       if (i < arr.length) vec.copy(arr[i]);
@@ -311,6 +316,7 @@ export default function ColorBends({
     intensity,
     bandWidth,
     colors,
+    color,
     transparent
   ]);
 

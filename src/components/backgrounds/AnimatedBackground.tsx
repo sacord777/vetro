@@ -14,6 +14,7 @@ export default function AnimatedBackground({
         position: "absolute",
         inset: 0,
         overflow: "hidden",
+        pointerEvents: "none",
       }}
     >
       {(variant === "gradient" || variant === "both") && (
@@ -25,14 +26,21 @@ export default function AnimatedBackground({
           }}
         >
           <ColorBends
-            colors={[
-              "#0F172A",
-              "#334155",
-              "#10B981",
-            ]}
+            colors={["#ff5c7a", "#8a5cff", "#57006a"]}
+            rotation={90}
             speed={0.2}
-            intensity={1.2}
+            scale={1}
+            frequency={1}
+            warpStrength={1}
+            mouseInfluence={1}
+            noise={0.15}
+            parallax={0.5}
+            iterations={1}
+            intensity={1.0}
+            bandWidth={6}
             transparent
+            autoRotate={1}
+            color="#A855F7"
           />
         </div>
       )}
@@ -50,7 +58,7 @@ export default function AnimatedBackground({
             dotSpacing={14}
             cursorRadius={300}
             bulgeStrength={50}
-            gradientFrom="#10B981"
+            gradientFrom="#A855F7"
             gradientTo="#B497CF"
           />
         </div>

@@ -31,7 +31,7 @@ interface DotFieldProps {
 }
 
 const DotField = memo(({
-  dotRadius = .5,
+  dotRadius = 1.5,
   dotSpacing = 14,
   cursorRadius = 500,
   cursorForce = 0.1,
